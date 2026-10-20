@@ -1,35 +1,27 @@
 # CellSense Research Lab
 
-Eight-page research showcase for **Breast Cancer Prediction Using a Stacking Machine Learning Ensemble**, Adegoke Oluwakayode, Federal University Oye-Ekiti, October 2026.
+A noncommercial final-year research showcase by Adegoke Oluwakayode, Federal University Oye-Ekiti.
 
-Open the overview, prediction lab, dataset explorer, model comparison, methodology, held-out results, research library, and project context. All 30 numeric inputs, three explicitly synthetic presets, six saved model pipelines, CSV batches up to 100 rows, local JSON/CSV report export, and original research figures are supported.
+[Open CellSense](https://jlearning5.github.io/cellsense-research/) · [Prediction lab](https://jlearning5.github.io/cellsense-research/lab.html)
 
-## Run locally
+Eight static pages cover the overview, six-model prediction lab, dataset explorer, model comparison, methodology, held-out results, research library, and project context. Enter all 30 measurements, load explicitly synthetic quartile presets, or import a CSV batch of up to 100 records. JSON/CSV reports are exported locally.
 
-With Node.js installed, run `npm start` in this directory and open http://localhost:4173 . The compact production models are already present; no Python installation or paid service is needed. Input files and measurements stay in page memory and are never uploaded.
+## Run or edit
 
-`npm run build` prepares `dist/` for static hosting. Runtime dependencies: none. The site has no prediction API, server functions, external font calls, analytics, login, subscription, or database.
+This repository is the ready-to-serve static site. Serve the root directory with any static file server; no build, framework, Python runtime, account, database, or API key is required. Edit app.js, styles.css, inference.js, and portable-worker.js directly. Models are in models/portable.json.
 
-## Scientific evidence
+Predictions execute on the visitor’s device. Inputs are not uploaded. Hosting uses GitHub Pages; there are no paid runtime services or inference APIs.
 
-The existing study used `uciml/breast-cancer-wisconsin-data`, 569 rows / 30 predictors, 455 development rows and 114 stratified held-out test rows. SVM was retained because stacking's mean-fold AP gain 0.000315 did not meet the preset minimum 0.001. The selected SVM used a locked threshold of 0.31, giving held-out AP 0.9931674424, accuracy 0.9736842105, and confusion matrix `[[70,2],[1,41]]`. See the actual saved metrics; this website introduces no new research score.
+## Evidence
 
-The compact browser implementation was checked against the original scikit-learn 1.6.1 saved pipelines on 25 synthetic application fixtures / 150 model probabilities. All matched within 1e-8 with no class disagreements. These fixtures verify implementation agreement, not clinical validity or external generalization.
+The original experiment used 569 Wisconsin Diagnostic Breast Cancer records and 30 numeric predictors. Development/test counts: 455/114. The saved selection rule retained SVM because stacking’s mean-fold AP gain of 0.000315 was below the preset 0.001 minimum. SVM threshold: 0.31. Locked test accuracy: 97.37%; AP: 0.9931674424; confusion matrix: [[70,2],[1,41]]. No retraining or new research evaluation was performed for this app.
 
-## Project boundaries
+The compact browser implementation matched the original scikit-learn 1.6.1 pipelines on 25 synthetic application fixtures / 150 probabilities within 1e-8, with no classification disagreements. See models/provenance.json and docs/model-parity.json.
 
-Original research files were preserved outside `UI-fixed`. No previous web application existed, so no invented original-app URL or before screenshot is supplied. `docs/original-files-manifest.json` supports content preservation checks. Design-reference research was partial due repeated browser-control deadlines; see the detailed record, including unfulfilled galleries, in `docs/RESEARCH-LOG.md`.
+Design and research notes are in docs/. Design-reference browsing was partial; the full firsthand reference gate is not claimed complete. Viewport, accessibility, interaction, and preservation checks are described in docs/VERIFICATION.md and docs/verification-local.json.
 
-This app does not process mammograms or symptoms, diagnose patients, or provide a personal cancer-risk estimate. Patient linkage and external validation are absent. The original KNN/SVM artifacts inherently retain dataset-derived reference/support vectors. Preserve source attribution and noncommercial licensing conditions.
+## Scope and rights
 
-## Development and verification
+This is research software, not a diagnostic tool or a personal cancer-risk calculator. No verified patient grouping or external clinical validation exists. Synthetic presets are not actual patients. KNN and SVM models inherently retain dataset-derived reference/support vectors.
 
-Core source: `public/app.js`, `styles.css`, `inference.js`, `portable-worker.js`, and eight static HTML entry points. The compact model payload is `public/models/portable.json`; provenance and original-model hashes are in `models/provenance.json`. Design, motion, states, assets, evidence, free hosting, and limitations are documented under `docs/`.
-
-Local engineering tests use Playwright and axe-core. On this Windows workstation, Playwright is provided by the bundled Codex runtime and launches installed Edge; `scripts/verify.mjs` records viewport, accessibility, interaction, privacy-network, download, and model-agreement checks. Set `VERIFY_URL` to test a deployed base URL. For another workstation, install Playwright or adjust its local package resolution. `scripts/parity.mjs` requires the local reference worker and Pyodide files prepared by `scripts/prepare.mjs`; these large engineering files are deliberately excluded from production deployment.
-
-No new Kaggle notebook or training run was created. Kaggle was used read-only to verify metadata, file summary, and file tree. Browser export/parity is deployment engineering on the supplied saved artifacts.
-
-## Deployment
-
-Publish the contents of `dist/` through a public GitHub Pages repository using branch `main`, root `/`, with `.nojekyll`. Public GitHub Pages is available on GitHub Free; see https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits . Do not introduce paid inference or upgrade services automatically. Respect the site's educational/noncommercial purpose and GitHub's published usage limits.
+Dataset: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data . Mirror license: CC BY-NC-SA 4.0. Upstream attribution: Wolberg, Mangasarian, Street (1993), https://doi.org/10.24432/C5DW2B . Preserve attribution and noncommercial share-alike conditions. Self-hosted DM fonts use the SIL Open Font License; libsvm/scikit-learn notices are retained. See LICENSES.md.

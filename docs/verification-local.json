@@ -1,0 +1,388 @@
+{
+  "url": "http://localhost:4173/",
+  "date": "2026-10-20",
+  "diagnosticCSPBypass": true,
+  "pages": [
+    {
+      "device": "desktop",
+      "route": "index",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "lab",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "dataset",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "models",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "methodology",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "results",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "library",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "about",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "tablet",
+      "route": "index",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "tablet",
+      "route": "lab",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "tablet",
+      "route": "dataset",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "tablet",
+      "route": "models",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "tablet",
+      "route": "methodology",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "tablet",
+      "route": "results",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "tablet",
+      "route": "library",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "tablet",
+      "route": "about",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "index",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "lab",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "dataset",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "models",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "methodology",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "results",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "library",
+      "loaded": true,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "about",
+      "loaded": true,
+      "overflow": false
+    }
+  ],
+  "interactions": [
+    {
+      "name": "Mobile menu opens",
+      "passed": true
+    },
+    {
+      "name": "Escape closes mobile navigation",
+      "passed": true
+    },
+    {
+      "name": "Illustration pauses",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion stops illustration",
+      "passed": true
+    },
+    {
+      "name": "Feature search filters real statistics",
+      "passed": true
+    },
+    {
+      "name": "Feature group combines with search",
+      "passed": true
+    },
+    {
+      "name": "Feature empty state",
+      "passed": true
+    },
+    {
+      "name": "Metric selection updates actual ROC AUC",
+      "passed": true
+    },
+    {
+      "name": "Baseline toggle",
+      "passed": true
+    },
+    {
+      "name": "Research figure enlarges",
+      "passed": true
+    },
+    {
+      "name": "Figure dialog closes with Escape",
+      "passed": true
+    },
+    {
+      "name": "Original artifact download",
+      "passed": true
+    },
+    {
+      "name": "No export before prediction",
+      "passed": true
+    },
+    {
+      "name": "Empty input rejected",
+      "passed": true
+    },
+    {
+      "name": "Negative input cannot produce a prediction",
+      "passed": true
+    },
+    {
+      "name": "All preset groups populated",
+      "passed": true
+    },
+    {
+      "name": "Median prediction matches reference display",
+      "passed": true
+    },
+    {
+      "name": "JSON export has six scores and locked threshold",
+      "passed": true
+    },
+    {
+      "name": "Editing invalidates stale result",
+      "passed": true
+    },
+    {
+      "name": "Stale prediction cannot be exported",
+      "passed": true
+    },
+    {
+      "name": "Malformed CSV rejected",
+      "passed": true
+    },
+    {
+      "name": "Two-row batch prediction",
+      "passed": true
+    },
+    {
+      "name": "CSV report includes header and two rows",
+      "passed": true
+    },
+    {
+      "name": "150 prediction comparisons match saved-model reference",
+      "passed": true
+    }
+  ],
+  "accessibility": [
+    {
+      "device": "desktop",
+      "route": "index",
+      "violations": []
+    },
+    {
+      "device": "desktop",
+      "route": "lab",
+      "violations": []
+    },
+    {
+      "device": "desktop",
+      "route": "dataset",
+      "violations": []
+    },
+    {
+      "device": "desktop",
+      "route": "models",
+      "violations": []
+    },
+    {
+      "device": "desktop",
+      "route": "methodology",
+      "violations": []
+    },
+    {
+      "device": "desktop",
+      "route": "results",
+      "violations": []
+    },
+    {
+      "device": "desktop",
+      "route": "library",
+      "violations": []
+    },
+    {
+      "device": "desktop",
+      "route": "about",
+      "violations": []
+    },
+    {
+      "device": "tablet",
+      "route": "index",
+      "violations": []
+    },
+    {
+      "device": "tablet",
+      "route": "lab",
+      "violations": []
+    },
+    {
+      "device": "tablet",
+      "route": "dataset",
+      "violations": []
+    },
+    {
+      "device": "tablet",
+      "route": "models",
+      "violations": []
+    },
+    {
+      "device": "tablet",
+      "route": "methodology",
+      "violations": []
+    },
+    {
+      "device": "tablet",
+      "route": "results",
+      "violations": []
+    },
+    {
+      "device": "tablet",
+      "route": "library",
+      "violations": []
+    },
+    {
+      "device": "tablet",
+      "route": "about",
+      "violations": []
+    },
+    {
+      "device": "mobile",
+      "route": "index",
+      "violations": []
+    },
+    {
+      "device": "mobile",
+      "route": "lab",
+      "violations": []
+    },
+    {
+      "device": "mobile",
+      "route": "dataset",
+      "violations": []
+    },
+    {
+      "device": "mobile",
+      "route": "models",
+      "violations": []
+    },
+    {
+      "device": "mobile",
+      "route": "methodology",
+      "violations": []
+    },
+    {
+      "device": "mobile",
+      "route": "results",
+      "violations": []
+    },
+    {
+      "device": "mobile",
+      "route": "library",
+      "violations": []
+    },
+    {
+      "device": "mobile",
+      "route": "about",
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "networkWrites": [],
+  "externalRequests": [],
+  "firstPredictionMs": 13226,
+  "modelParity": {
+    "comparisons": 150,
+    "tolerance": 1e-8,
+    "maxErrors": {
+      "SVM": 2.831068712794149e-15,
+      "Logistic": 1.1102230246251565e-16,
+      "RandomForest": 0,
+      "KNN": 2.7755575615628914e-17,
+      "GaussianNB": 6.661338147750939e-16,
+      "Stacking": 1.4988010832439613e-15
+    }
+  },
+  "passed": true
+}
