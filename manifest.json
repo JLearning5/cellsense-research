@@ -1,0 +1,217 @@
+{
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "about.html",
+      "bytes": 986,
+      "sha256": "0810a17cc63e2308316698400ead21b5f90e351035650f6feb1d47d300116ec2"
+    },
+    {
+      "path": "app.js",
+      "bytes": 50477,
+      "sha256": "fc0096f7b58d5845c0807e6761ee2e09af45354312bc9fc73cd36ad8555328cf"
+    },
+    {
+      "path": "data/evidence.json",
+      "bytes": 16303,
+      "sha256": "03ab3a4bf9b68ad8bae49ee8bc58d034fbbbdcaecbb965e663ba067759a912a6"
+    },
+    {
+      "path": "dataset.html",
+      "bytes": 986,
+      "sha256": "0810a17cc63e2308316698400ead21b5f90e351035650f6feb1d47d300116ec2"
+    },
+    {
+      "path": "docs/ASSETS-AND-SOURCES.md",
+      "bytes": 4454,
+      "sha256": "2a21c28c2a1becdbee72bfa44f6c645f829c6c657c51adfa2bcc71ad68927a13"
+    },
+    {
+      "path": "docs/DESIGN-SYSTEM.md",
+      "bytes": 6115,
+      "sha256": "122cd07caa0d84c3ff4a4088b8588ef9bcffac24191e2b6c744b6b2f7fc04453"
+    },
+    {
+      "path": "docs/RESEARCH-LOG.md",
+      "bytes": 8066,
+      "sha256": "639d95f9f708d3fd4b3dc0bb9ffec9b1ba26f1b40523251aaa8ce81d76bb3860"
+    },
+    {
+      "path": "docs/web-figure-inventory.json",
+      "bytes": 2147,
+      "sha256": "bfe52138d50aa21b2347ccbd78b66cb511946944db03c5bb7be0c8f7d79d69ad"
+    },
+    {
+      "path": "downloads/development_feature_summary.csv",
+      "bytes": 3107,
+      "sha256": "953d1975a7cf5f8d012192a7b2b87124f324ad531c9164939e161f2e16337a81"
+    },
+    {
+      "path": "downloads/model_comparison.csv",
+      "bytes": 1934,
+      "sha256": "3f95317d00a776ccb262413ebe27ef67a10b4f1b30b25ff61d993adafcfbb0c7"
+    },
+    {
+      "path": "downloads/selection.json",
+      "bytes": 494,
+      "sha256": "ca8b027248eced107f57386514a530dcbc625eb1ebb8525a4242392242875c2d"
+    },
+    {
+      "path": "downloads/test_metrics.json",
+      "bytes": 1132,
+      "sha256": "7cf91d728ad6bfc59177082ec42389cdf0f172fd00c66614c6666b2da862ff57"
+    },
+    {
+      "path": "downloads/test_predictions.csv",
+      "bytes": 5346,
+      "sha256": "e9fd352600afc9616221a519f09e54ae835e54b5794326d6bf1c89d4758c716c"
+    },
+    {
+      "path": "downloads/wdbc_stacking.py",
+      "bytes": 34761,
+      "sha256": "62422cc36712fa99606b431fd228e3a3cab4557af3895dbc8b872b8a52c0895b"
+    },
+    {
+      "path": "figures/calibration.png",
+      "bytes": 355867,
+      "sha256": "5269356d857784e1c5324a9b7cf8549b28d3725067f9703fb1b7b32bfdab792b"
+    },
+    {
+      "path": "figures/ensemble_diversity.png",
+      "bytes": 264967,
+      "sha256": "ad79179c4efb68b9784152c637eb974202e032225e2302ce4acf80de78dcbf0c"
+    },
+    {
+      "path": "figures/feature_correlations.png",
+      "bytes": 422605,
+      "sha256": "0c542ba2360ede11dc401a739e96ea3d3e9ce3d907729da8290cc49128add262"
+    },
+    {
+      "path": "figures/final_test_confusion.png",
+      "bytes": 115315,
+      "sha256": "e5e0bf9ed9a322a2a2fb375835fab557e6cdd10edb80f4b84c28907120d27e8e"
+    },
+    {
+      "path": "figures/precision_recall.png",
+      "bytes": 205629,
+      "sha256": "9ad9bb24b68c48c569fe0009acdc06db9077a31ad12246aa7f6226d040de5f85"
+    },
+    {
+      "path": "figures/roc.png",
+      "bytes": 195561,
+      "sha256": "3c1ae283e75da95c58036a13f350d538cadbad47ab59b3c33f7df1d11aa5577c"
+    },
+    {
+      "path": "figures/stacking_meta_coefficients.png",
+      "bytes": 104929,
+      "sha256": "951119d0780c87a198cdd3732c547d5f50595fb4666aecdbc579d0d592065c5a"
+    },
+    {
+      "path": "fonts/dmsans-OFL.txt",
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "path": "fonts/dmserifdisplay-OFL.txt",
+      "bytes": 4605,
+      "sha256": "a3e5cdd67d4571dd0a24fcc968de0efde7ae97ef752daf0906e4767619dd7231"
+    },
+    {
+      "path": "fonts/sans.ttf",
+      "bytes": 240164,
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    {
+      "path": "fonts/serif.ttf",
+      "bytes": 76580,
+      "sha256": "8cc3643535edf039aa5d95440a8542735e9197e4f4b8d9303e980fefbf5ab616"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 362,
+      "sha256": "c0d106f91eed3631525bc7f05ac27aa0735061fc0a7f1dd82e7cbeb680dccf2a"
+    },
+    {
+      "path": "index.html",
+      "bytes": 986,
+      "sha256": "0810a17cc63e2308316698400ead21b5f90e351035650f6feb1d47d300116ec2"
+    },
+    {
+      "path": "inference.js",
+      "bytes": 2671,
+      "sha256": "be3de26440cfaaedc2c7372b417c52db5ccb632c8edeb7e83ce4467993158710"
+    },
+    {
+      "path": "lab.html",
+      "bytes": 986,
+      "sha256": "0810a17cc63e2308316698400ead21b5f90e351035650f6feb1d47d300116ec2"
+    },
+    {
+      "path": "library.html",
+      "bytes": 986,
+      "sha256": "0810a17cc63e2308316698400ead21b5f90e351035650f6feb1d47d300116ec2"
+    },
+    {
+      "path": "LICENSES.md",
+      "bytes": 972,
+      "sha256": "f5e27c5b7fd4b7f0ad2bd1d4f50c0ba34f69b0d10956de33189f6ff5affaf6f9"
+    },
+    {
+      "path": "licenses/LIBSVM.txt",
+      "bytes": 1497,
+      "sha256": "958fd47be5e5b94dabeb68b077fbe2adbbd49c015fe2e453fe11afeb4a73c7e5"
+    },
+    {
+      "path": "licenses/SCIKIT-LEARN.txt",
+      "bytes": 1532,
+      "sha256": "75684d16f4662ab842ed5af9482ac01939aee83c8243d89993616d959d3053f8"
+    },
+    {
+      "path": "methodology.html",
+      "bytes": 986,
+      "sha256": "0810a17cc63e2308316698400ead21b5f90e351035650f6feb1d47d300116ec2"
+    },
+    {
+      "path": "models.html",
+      "bytes": 986,
+      "sha256": "0810a17cc63e2308316698400ead21b5f90e351035650f6feb1d47d300116ec2"
+    },
+    {
+      "path": "models/portable.json",
+      "bytes": 1240072,
+      "sha256": "c834994e7b3a80eae0e88ca5f4038850d22a72aeea8673b16f24f86737fc7ad9"
+    },
+    {
+      "path": "models/provenance.json",
+      "bytes": 1709,
+      "sha256": "959f23f99951499ff3d6192e637ea815b96fe9e97d506cd75dec6a4f3ff79809"
+    },
+    {
+      "path": "portable-worker.js",
+      "bytes": 708,
+      "sha256": "70a58e96c7c1ddfc2c298e87b2ae4b0189e25a5c068ec81f225cd6e5e19fc67a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4214,
+      "sha256": "f838ef26224eeca638fff08b04bbc34f1abdd627feb297b901926a1d9bd0e4a8"
+    },
+    {
+      "path": "results.html",
+      "bytes": 986,
+      "sha256": "0810a17cc63e2308316698400ead21b5f90e351035650f6feb1d47d300116ec2"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 24292,
+      "sha256": "f4b76cf34a10425b9c18a11d003e850ec1d38e30e3ea4a003b64ae37637d8a3f"
+    }
+  ],
+  "total_bytes": 3410957,
+  "model_count": 6,
+  "external_runtime_dependencies": 0
+}

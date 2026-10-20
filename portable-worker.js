@@ -1,0 +1,3 @@
+import {predictAll} from './inference.js';
+let models;
+self.onmessage=async({data})=>{try{if(!Array.isArray(data.rows)||data.rows.length<1||data.rows.length>100||data.rows.some(row=>row.length!==30||row.some(v=>!Number.isFinite(v)||v<0)))throw Error('INPUT_SCHEMA_INVALID');if(!models){postMessage({type:'status',message:'Opening the compact saved models…'});const res=await fetch('./models/portable.json');if(!res.ok)throw Error('MODEL_FETCH_FAILED');models=await res.json();postMessage({type:'ready',version:'1.6.1-compatible compact inference'})}postMessage({type:'prediction',id:data.id,scores:predictAll(models,data.rows)})}catch(error){postMessage({type:'error',id:data.id,message:String(error)})}};

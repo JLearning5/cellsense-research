@@ -1,0 +1,100 @@
+[
+  {
+    "name": "calibration.png",
+    "original": {
+      "width": 6619,
+      "height": 4939,
+      "bytes": 1199288
+    },
+    "web": {
+      "width": 1800,
+      "height": 1343,
+      "bytes": 355867
+    },
+    "operation": "Resize supplied plot for web display; no data or plot regeneration"
+  },
+  {
+    "name": "ensemble_diversity.png",
+    "original": {
+      "width": 8779,
+      "height": 4696,
+      "bytes": 911045
+    },
+    "web": {
+      "width": 1800,
+      "height": 963,
+      "bytes": 264967
+    },
+    "operation": "Resize supplied plot for web display; no data or plot regeneration"
+  },
+  {
+    "name": "feature_correlations.png",
+    "original": {
+      "width": 7563,
+      "height": 6583,
+      "bytes": 1570628
+    },
+    "web": {
+      "width": 1800,
+      "height": 1567,
+      "bytes": 422605
+    },
+    "operation": "Resize supplied plot for web display; no data or plot regeneration"
+  },
+  {
+    "name": "final_test_confusion.png",
+    "original": {
+      "width": 3798,
+      "height": 3439,
+      "bytes": 196475
+    },
+    "web": {
+      "width": 1800,
+      "height": 1630,
+      "bytes": 115315
+    },
+    "operation": "Resize supplied plot for web display; no data or plot regeneration"
+  },
+  {
+    "name": "precision_recall.png",
+    "original": {
+      "width": 6619,
+      "height": 4939,
+      "bytes": 733775
+    },
+    "web": {
+      "width": 1800,
+      "height": 1343,
+      "bytes": 205629
+    },
+    "operation": "Resize supplied plot for web display; no data or plot regeneration"
+  },
+  {
+    "name": "roc.png",
+    "original": {
+      "width": 6619,
+      "height": 4939,
+      "bytes": 702396
+    },
+    "web": {
+      "width": 1800,
+      "height": 1343,
+      "bytes": 195561
+    },
+    "operation": "Resize supplied plot for web display; no data or plot regeneration"
+  },
+  {
+    "name": "stacking_meta_coefficients.png",
+    "original": {
+      "width": 5659,
+      "height": 3979,
+      "bytes": 298225
+    },
+    "web": {
+      "width": 1800,
+      "height": 1266,
+      "bytes": 104929
+    },
+    "operation": "Resize supplied plot for web display; no data or plot regeneration"
+  }
+]

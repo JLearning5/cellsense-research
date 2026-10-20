@@ -1,0 +1,19 @@
+{
+  "winner": "SVM",
+  "best_component": "SVM",
+  "stacking_fold_mean_ap_gain": 0.0003152893089739539,
+  "minimum_ap_gain": 0.001,
+  "primary_metric": "mean_outer_fold_average_precision",
+  "threshold_objective": "max_pooled_oof_f2",
+  "thresholds": {
+    "Dummy": 0.37,
+    "Logistic": 0.35000000000000003,
+    "SVM": 0.31,
+    "RandomForest": 0.29000000000000004,
+    "KNN": 0.27,
+    "GaussianNB": 0.01,
+    "Stacking": 0.11
+  },
+  "winner_threshold": 0.31,
+  "test_evaluations_planned": 1
+}

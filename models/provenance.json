@@ -1,0 +1,40 @@
+{
+  "source_run": "wdbc_stacking_20261007_v1",
+  "date": "2026-10-20",
+  "export": "Fitted parameters serialized inside a browser WebAssembly runtime with scikit-learn 1.6.1. No fitting or research re-evaluation.",
+  "source_models": {
+    "SVM": "c4c5451d69a0967911e76089d37ad79fb3af27fc892461c26739caa41732d578",
+    "Logistic": "6ab6e640cc6b1a17a54501653a2f58cb3f0a6845bf5e3842734e88e3606c0ee6",
+    "RandomForest": "858b523624d0328a776b96c524944570a08ecae66697311a51165559c4508f57",
+    "KNN": "1ea32bfa07c30515c4ffd98f3b917d2cc86c7b3ffa32e8bcb3a51969d5f7fa30",
+    "GaussianNB": "f667aed4d7df4cd1adc44856df74ca3380ca1c2fb6044561fad3c8fcf72ccf51",
+    "Stacking": "cb2aca932d2a3457f843efec9c612c0ba4154bb9bad8d82482a913d624296730"
+  },
+  "portable_sha256": "c834994e7b3a80eae0e88ca5f4038850d22a72aeea8673b16f24f86737fc7ad9",
+  "implementation_sha256": "be3de26440cfaaedc2c7372b417c52db5ccb632c8edeb7e83ce4467993158710",
+  "parity": {
+    "date": "2026-10-20",
+    "method": "Saved sklearn 1.6.1 artifacts executed in browser WebAssembly versus compact browser implementation. No fitting or research evaluation.",
+    "fixture_type": "25 synthetic application fixtures from existing development summary statistics",
+    "rows": 25,
+    "comparisons": 150,
+    "tolerance": 1e-8,
+    "differences": {
+      "SVM": 2.831068712794149e-15,
+      "Logistic": 1.1102230246251565e-16,
+      "RandomForest": 0,
+      "KNN": 2.7755575615628914e-17,
+      "GaussianNB": 6.661338147750939e-16,
+      "Stacking": 1.4988010832439613e-15
+    },
+    "disagreements": {
+      "SVM": 0,
+      "Logistic": 0,
+      "RandomForest": 0,
+      "KNN": 0,
+      "GaussianNB": 0,
+      "Stacking": 0
+    },
+    "passed": true
+  }
+}
